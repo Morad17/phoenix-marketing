@@ -1,0 +1,32 @@
+.mainnav-container{
+    display: flex;
+    flex-direction: row;
+    background-color: #525252;
+    align-items: center;
+    .logo{
+        margin-left: 2vw;
+        font-size: 35px;
+        color: red;
+    }
+    .navigation{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+
+        .navbar{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+
+            .nav-links{
+                padding: 0px 20px;
+                font-size: 21px;
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+        
+    }
+}

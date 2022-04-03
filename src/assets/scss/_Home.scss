@@ -1,0 +1,14 @@
+.home{
+    margin-top: 10vh;
+
+    .hero-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .hero-company-name{
+            .logo{
+                display: inline;
+            }
+        }
+    }
+}
