@@ -1,18 +1,16 @@
 import React from 'react'
+import MobileNav from './MobileNav'
 
-import { Navbar, Container, NavbarBrand, Nav } from 'react-bootstrap'
+import { Navbar, NavbarBrand, Nav } from 'react-bootstrap'
 import PhoenixLogo from '../assets/images/phoenix.png'
 
 const MainNav = () => {
   return (
-    <Navbar expand={false} className="mainnav-container">
-        <Container>
+    <Navbar className="mainnav-container">
            <NavbarBrand className="logo">
                 <img src={PhoenixLogo} alt="" />
             </NavbarBrand>
-            <Navbar.Toggle aria-controls="basic" />
-            <Navbar.Collapse id="basic">
-                <Nav className="navigation">
+                <Nav className="mainnav-navigation">
                     <ul className="navbar">
                         <Nav.Link href="#home" className="nav-links">
                             Home
@@ -27,13 +25,10 @@ const MainNav = () => {
                             Contact Us
                         </Nav.Link>
                     </ul>
-                </Nav> 
-            </Navbar.Collapse>
+                    
+                </Nav>
+                {/* <MobileNav className="mobilenav-div"/>  */}
             
-            
-        </Container>
-        
-        
     </Navbar>
   )
 }

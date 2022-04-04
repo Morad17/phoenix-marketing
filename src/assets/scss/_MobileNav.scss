@@ -1,0 +1,127 @@
+.mobilenav{
+
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    position: fixed;
+    background-color: #191919;
+    z-index: 111111;
+
+    .menu-btn{
+
+        position:relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+        transition: all .5s ease-in-out;
+        margin-right: 2vw;
+        margin-top: 10px;
+        background-color: #191919;
+        border-radius: 5px;
+
+      .menu-btn-burger{
+        
+            width: 40px;
+            height: 4px;
+            background: white;
+            box-shadow: 0 2px 5px rgba(255,101,47,.2);
+            transition: all .5s ease-in-out;
+        }
+
+        .menu-btn-burger::before,
+        .menu-btn-burger::after {
+            content: '';
+            position: absolute;
+            width: 40px;
+            height: 4px;
+            background: white;
+            box-shadow: 0 2px 5px rgba(255,101,47,.2);
+            transition: all .5s ease-in-out;
+        }
+
+        .menu-btn-burger::before{
+            transform: translateY(-13px);
+        }
+
+        .menu-btn-burger::after{
+            transform: translateY(13px);
+        }
+
+    }
+    
+
+    .mobilenav-dropdown{
+        
+        margin-top: -60vh;
+        padding: 0;
+        transition: all .7s ease-in-out;
+        hr{
+            width: 100vw;
+            height: 1px;
+            text-align: center;
+            margin: 0;
+            font-size: 1px;
+            padding: 0;
+            border: none;
+            background: gray;
+        }
+
+        li{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 5px 0;
+
+            a{
+                text-decoration: none;
+                font-size: 1.3rem;
+                
+                color: white;
+                padding-top: 3px;
+                display: flex;
+                flex-direction: row;
+            }
+            p{
+                padding-left: 10px;
+                font-size: 1.3rem;
+                margin: 0;
+            }
+        }
+    }
+
+    // Animation //
+
+    .menu-btn.open{
+        .menu-btn-burger{
+            transform: translateX(-50px);
+            background: transparent;
+            box-shadow: none;
+        }
+    }
+
+    .menu-btn.open{
+        .menu-btn-burger::before {
+            transform: rotate(45deg) translate(35px, -35px);
+        }
+
+        .menu-btn-burger::after {
+            transform: rotate(-45deg) translate(35px, 35px);
+        }
+    }
+
+
+}
+
+//Media Query //
+
+@media(max-width:480px){
+
+    .mobilenav{
+        display: flex;
+    }
+}

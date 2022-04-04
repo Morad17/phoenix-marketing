@@ -9,7 +9,7 @@
             width: 50px;
         }
     }
-    .navigation{
+    .mainnav-navigation{
         display: flex;
         justify-content: center;
         width: 100vw;
@@ -31,4 +31,21 @@
         }
         
     }
+}
+
+//Media Query //
+@media(max-width:840px){
+    .mainnav-container{
+    }
+    
+}
+
+@media(max-width:480px){
+    .mainnav-container{
+        .mainnav-navigation{
+        display: none;
+        
+    }
+    }
+    
 }

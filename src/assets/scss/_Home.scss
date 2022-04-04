@@ -1,8 +1,10 @@
 .home{
+    height: 100vh;
 
     .background-image{
         z-index: -1111;
         position: absolute;
+        width: 100vw;
     }
     .hero-container{
         z-index: 1111;
@@ -18,6 +20,34 @@
             h2{
                 font-size: 30px;
             }
+            .links{
+                display: flex;
+                flex-direction: row;
+                text-decoration: none;
+                align-items: center;
+                justify-content: space-around;
+                .instagram{
+                    background-color: none;
+                    border-radius: 5px;
+                    width: 30px;
+                    height: 30px;
+                    a{
+                        align-content: center;
+                        font-size: 30px;
+                        color: white;
+                    }
+                }
+                .contact-button{
+                    .basic-button{
+                        font-size: 18px;
+                        border: 1px solid white;
+                        padding: 8px;
+                        border-radius: 20px;
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
         }
         .logo{
                 display: inline;
@@ -26,4 +56,43 @@
                 }
             }
     }
+}
+
+
+//Media Query //
+@media(max-width:840px){
+    .home{
+        .hero-container{
+            padding-top: 10vh;
+        
+        .hero-header{
+            h1{
+                font-size:45px;
+            }
+            h2{
+                font-size: 30px;
+            }
+        }
+    }
+    }
+
+    
+}
+
+@media(max-width:480px){
+    .home{
+        .hero-container{
+            padding-top: 1vh;
+
+        .hero-header{
+            h1{
+                font-size:35px;
+            }
+            h2{
+                font-size: 20px;
+            }
+        }
+    }
+    }
+    
 }

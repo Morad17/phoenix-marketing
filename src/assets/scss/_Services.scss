@@ -1,0 +1,30 @@
+.services-section{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        background-color: #fafafa;
+        height: 80vh;
+        hr{
+            width: 5vw;
+            border: 2px solid black;
+            margin-bottom: 5vh;
+        }
+        h2{
+            font-size: 45px;
+            margin: 15px;
+        }
+        .services-text-row{
+            display: flex;
+            flex-direction: row;
+            margin: 0 20vw;
+            h3{
+                font-size: 30px;
+            }
+            p{
+                font-size: 19px;
+                line-height: 28px;
+                padding: 25px;
+            }
+        }    
+}

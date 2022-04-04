@@ -1,0 +1,26 @@
+.about-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #d97365;
+    height: 60vh;
+    hr{
+        width: 5vw;
+        border: 2px solid white;
+    }
+    h2{
+        font-size: 45px;
+        margin: 15px;
+    }
+    hr{
+        margin-bottom: 5vh;
+    }
+    .about-text-row{
+        width: 30vw;
+        margin: 0 auto;
+        p{
+            font-size: 20px;
+        }
+    }
+}
