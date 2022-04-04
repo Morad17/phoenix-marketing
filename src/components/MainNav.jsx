@@ -1,30 +1,40 @@
 import React from 'react'
 
+import { Navbar, Container, NavbarBrand, Nav } from 'react-bootstrap'
+import PhoenixLogo from '../assets/images/phoenix.png'
 
 const MainNav = () => {
   return (
-    <div className="mainnav-container">
-        <div className="logo">
-            PS
-        </div>
-        <div className="navigation">
-            <ul className="navbar">
-                <li className="nav-links">
-                    <a href="#home">Home</a>
-                </li>
-                <li className="nav-links">
-                    <a href="#home">About Us</a>
-                </li>
-                <li className="nav-links">
-                    <a href="#home">Services</a>
-                </li>
-                <li className="nav-links">
-                    <a href="#home">Contact Us</a>
-                </li>
-            </ul>
-        </div>
+    <Navbar expand={false} className="mainnav-container">
+        <Container>
+           <NavbarBrand className="logo">
+                <img src={PhoenixLogo} alt="" />
+            </NavbarBrand>
+            <Navbar.Toggle aria-controls="basic" />
+            <Navbar.Collapse id="basic">
+                <Nav className="navigation">
+                    <ul className="navbar">
+                        <Nav.Link href="#home" className="nav-links">
+                            Home
+                        </Nav.Link>
+                        <Nav.Link href="#home" className="nav-links">
+                            About Us
+                        </Nav.Link>
+                        <Nav.Link href="#home" className="nav-links">
+                            Services
+                        </Nav.Link>
+                        <Nav.Link href="#home" className="nav-links">
+                            Contact Us
+                        </Nav.Link>
+                    </ul>
+                </Nav> 
+            </Navbar.Collapse>
+            
+            
+        </Container>
         
-    </div>
+        
+    </Navbar>
   )
 }
 

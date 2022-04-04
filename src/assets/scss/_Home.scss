@@ -1,14 +1,29 @@
 .home{
-    margin-top: 10vh;
 
+    .background-image{
+        z-index: -1111;
+        position: absolute;
+    }
     .hero-container{
+        z-index: 1111;
+        padding-top: 25vh;
         display: flex;
         justify-content: center;
-        flex-direction: column;
-        .hero-company-name{
-            .logo{
-                display: inline;
+        flex-direction: row;
+        text-align: center;
+        .hero-header{
+            h1{
+                font-size:50px;
+            }
+            h2{
+                font-size: 30px;
             }
         }
+        .logo{
+                display: inline;
+                img{
+                    width: 100px;
+                }
+            }
     }
 }

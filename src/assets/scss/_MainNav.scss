@@ -5,8 +5,9 @@
     align-items: center;
     .logo{
         margin-left: 2vw;
-        font-size: 35px;
-        color: red;
+        img{
+            width: 50px;
+        }
     }
     .navigation{
         display: flex;
@@ -21,9 +22,10 @@
             .nav-links{
                 padding: 0px 20px;
                 font-size: 21px;
+                text-decoration: none;
+                color: white;
                 a{
-                    text-decoration: none;
-                    color: white;
+                    
                 }
             }
         }
