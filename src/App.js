@@ -6,6 +6,7 @@ import Footer from "./pages/Footer";
 
 import MainNav from "./components/MainNav";
 import MobileNavbar from "./components/MobileNav";
+import OurGoals from "./pages/OurGoals";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Home />
       <About />
       <Services />
+      <OurGoals />
       <Contact />
       <Footer />
     </>

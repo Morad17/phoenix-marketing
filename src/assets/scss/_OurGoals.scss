@@ -1,0 +1,38 @@
+.our-goals-section{
+    text-align: center;
+    // background-color: #a52121;
+    height: 60vh;
+    // color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    hr{
+        width: 5vw;
+        border: 2px solid black;
+        margin-bottom: 5vh;
+    }
+    .goal-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        .goal-box{
+        img{
+            width:420px;
+            height: 280px;
+        }
+        .goal-text{
+            display: none;
+            position: absolute;
+            padding: 5vw;
+            padding-left: 0;
+            font-size: 22px;
+            color: white;
+            cursor: pointer;
+        }
+        .goal-text:hover{
+            display: block;
+        }
+    }
+    }
+    
+}

@@ -2,11 +2,14 @@ import React from 'react'
 import * as FaIcons from "react-icons/fa"
 
 import phoenixLogo from '../assets/images/phoenix.png'
-import background from '../assets/images/bg.jpg'
+import background from '../assets/images/bg3.jpg'
 const Home = () => {
   return (
     <div className="home" id="home">
-      <img className="background-image" src={background} alt="" />
+      <div className="background-wrapper"></div>
+        <img className="background-image" src={background} alt="" />
+      
+      
         <div className="hero-container">
                 <div className="logo">
                     <img src={phoenixLogo} alt="" />

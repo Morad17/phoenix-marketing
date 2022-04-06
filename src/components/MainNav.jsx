@@ -21,6 +21,9 @@ const MainNav = () => {
                         <Nav.Link href="#services" className="nav-links">
                             Services
                         </Nav.Link>
+                        <Nav.Link href="#our-goals" className="nav-links">
+                            Our Goals
+                        </Nav.Link>
                         <Nav.Link href="#contact" className="nav-links">
                             Contact Us
                         </Nav.Link>
