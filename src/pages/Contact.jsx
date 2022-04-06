@@ -3,12 +3,12 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 const Contact = () => {
   return (
-    <Container fluid className="contact-section">
+    <Container fluid className="contact-section" id="contact">
         <h2>Contact Us</h2>
         <hr />
         <Row className="contact-row">
             <Col className="contact-left">
-            <form onSubmit="">
+                <form onSubmit="">
                         <div className="contact-details">
                             <div className="contact-input-row">
                                 <label htmlFor="name">Name</label>

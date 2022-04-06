@@ -1,0 +1,30 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #a52121;
+    color: #fafafa;
+    .logo-header{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+        padding-top: 3vh;
+        padding-bottom: 1vh;
+       .logo{
+        width: 50px;
+        height: 75px;
+        }
+        h2{
+            font-size: 40px;
+            margin-left: 20px;
+        } 
+    }
+    .instagram{
+        a{
+            font-size: 30px;
+            color: #fafafa
+        }
+    }
+    
+}

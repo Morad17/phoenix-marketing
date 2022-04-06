@@ -1,8 +1,9 @@
 .mainnav-container{
     display: flex;
     flex-direction: row;
-    background-color: #525252;
+    background-color: #a52121;
     align-items: center;
+    position: fixed;
     .logo{
         margin-left: 2vw;
         img{

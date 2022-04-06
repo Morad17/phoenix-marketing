@@ -7,7 +7,7 @@ import PhoenixLogo from '../assets/images/phoenix.png'
 const MainNav = () => {
   return (
     <Navbar className="mainnav-container">
-           <NavbarBrand className="logo">
+           <NavbarBrand className="logo" href="home">
                 <img src={PhoenixLogo} alt="" />
             </NavbarBrand>
                 <Nav className="mainnav-navigation">
@@ -15,13 +15,13 @@ const MainNav = () => {
                         <Nav.Link href="#home" className="nav-links">
                             Home
                         </Nav.Link>
-                        <Nav.Link href="#home" className="nav-links">
+                        <Nav.Link href="#about" className="nav-links">
                             About Us
                         </Nav.Link>
-                        <Nav.Link href="#home" className="nav-links">
+                        <Nav.Link href="#services" className="nav-links">
                             Services
                         </Nav.Link>
-                        <Nav.Link href="#home" className="nav-links">
+                        <Nav.Link href="#contact" className="nav-links">
                             Contact Us
                         </Nav.Link>
                     </ul>
