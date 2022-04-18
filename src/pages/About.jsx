@@ -8,20 +8,12 @@ const About = () => {
         <hr/>
         <Row className="about-text-row">
             <p>
-                For us here at Steel, being driven by results and tangible success 
-                for our clients means that our clients can trust us with their whole 
-                sales and marketing strategy.
+            We are a leading direct sales and marketing company specialising
+             in promoting our clients services to potential customers and driving sales. 
             </p>
             <p>
-            Our brand ambassadors are experts in connecting with customers prioritising 
-            a rare and valued human element, they can effectively generate instant paying 
-            customers whilst conveying our client’s messages and values in a relatable manner
-            in today’s busy consumer landscape.
-            </p>
-            <p>
-            Our ongoing mission is to continue to live and breathe progress and this starts with 
-            the training of our brand ambassadors, ensuring they are continually learning as fast 
-            as our surrounding's evolve.
+            We are trusted by our clients to generate their whole sales and marketing strategy through face to face marketing and adding a personal element to attain
+ instant paying customers whilst portraying our clients values.
             </p>
         </Row>
     </Container>

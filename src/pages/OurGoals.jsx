@@ -10,19 +10,19 @@ const OurGoals = () => {
     <Container fluid className="our-goals-section">
         <h1>Our Goals</h1>
         <hr />
-        <p>Our Goals at Phoenix Marketing are to provide a service that will help
-            accelerate your growth through several methods.
+        <p>Our aim at Phoenix Marketing is to provide grown to your company, by adding
+          our personal level of service.
         </p>
         <Row className="goal-row">
-          <Col className="goal-box">
+          <Col className="goal-box" sm={8}>
               <p className="goal-text">Customer Acquisiton through sales</p>
               <img src={customer} alt="Customer Acquisition" />
           </Col>
-          <Col className="goal-box">
+          <Col className="goal-box"sm={8}>
               <p className="goal-text">Help put a focus On Brand Loyalty</p>
               <img src={brand} alt="Brand Loyalty" />
           </Col>
-          <Col className="goal-box">
+          <Col className="goal-box"sm={8}>
             <p className="goal-text">Help reacovery from the pandemic</p>
             <img src={pandemic} alt="pandemic recovery" />
         </Col>  

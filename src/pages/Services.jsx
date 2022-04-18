@@ -7,26 +7,20 @@ const Services = () => {
         <h2>Services</h2>
         <hr />
         <Row className="services-text-row">
-            <Col>
-                <h3>Service 1</h3>
-                <p>From our years of experience in the industry, we are efficient when it comes
-                     to targeting your chosen demographic. In today's changing market consumers 
-                     are offered an extended amount of options, through expert rapport building 
-                     we ensure our clients remain the only sensible choice.
+            <Col md sm={8}>
+                <h3>Lead Generation</h3>
+                <p>Our brand ambassadors are well versed in delivering and understanding our clients 
+                    goals when it comes to generating paying customers and providing positive brand awareness.
+                </p>
+            </Col >
+            <Col md sm={8}><h3>Customer Acquisiton</h3>
+                <p>Our brand ambassadors specialise in connecting with customers on a human level, which in turn
+                     generates paying customers whilst conveying our clients values. 
                 </p>
             </Col>
-            <Col><h3>Service 2</h3>
-                <p>From our years of experience in the industry, we are efficient when it comes
-                     to targeting your chosen demographic. In today's changing market consumers 
-                     are offered an extended amount of options, through expert rapport building 
-                     we ensure our clients remain the only sensible choice.
-                </p>
-            </Col>
-            <Col><h3>Service 3</h3>
-                <p>From our years of experience in the industry, we are efficient when it comes
-                     to targeting your chosen demographic. In today's changing market consumers 
-                     are offered an extended amount of options, through expert rapport building 
-                     we ensure our clients remain the only sensible choice.
+            <Col md sm={8}><h3>Operations</h3>
+                <p>We specialise in direct marketing, our ethos is adding the human element to our sales
+                 strategy and exceeding our clients expectations
                 </p>
             </Col>
         </Row>
