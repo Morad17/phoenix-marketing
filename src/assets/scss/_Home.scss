@@ -75,16 +75,26 @@
 @media(max-width:840px){
     .home{
         .hero-container{
-            padding-top: 10vh;
+            padding-top: 15vh;
+            display: block;
         
         .hero-header{
             h1{
-                font-size:45px;
+                font-size:40px;
             }
             h2{
                 font-size: 30px;
             }
+            .links{
+                flex-direction: column;
+                .instagram, .contact-button{
+                    padding: 30px;
+                }
+            }   
         }
+    }
+    .background-image{
+        height: 100vh;
     }
     }
 
@@ -92,19 +102,5 @@
 }
 
 @media(max-width:480px){
-    .home{
-        .hero-container{
-            padding-top: 1vh;
 
-        .hero-header{
-            h1{
-                font-size:35px;
-            }
-            h2{
-                font-size: 20px;
-            }
-        }
-    }
-    }
-    
 }

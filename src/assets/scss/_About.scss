@@ -25,3 +25,29 @@
         }
     }
 }
+
+/*----Media Query ---*/
+
+@media(max-width:840px){
+    .about-section{
+        .about-text-row{
+            width: auto;
+            margin: 0 8vw;
+
+        
+    }
+    }
+    
+}
+
+@media(max-width:480px){
+    .about-section{
+        .about-text-row{
+            width: auto;
+            margin: 0 8vw;
+
+        
+    }
+    }
+    
+}

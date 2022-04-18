@@ -34,6 +34,22 @@
 //Media Query //
 @media(max-width:840px){
     .mainnav-container{
+        .logo{
+            img{
+                display: none;
+            }
+        }
+        .mainnav-navigation{
+            .navbar{
+                padding-left: 0;
+                .nav-links{
+                    padding: 0px 10px;
+                    font-size: 16px;
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
     }
     
 }
@@ -41,7 +57,6 @@
 @media(max-width:480px){
     .mainnav-container{
         .mainnav-navigation{
-        display: none;
         
     }
     }

@@ -15,3 +15,15 @@ body{
     overflow-x: hidden;
     font-family: 'Fraunces', serif;
 }
+
+/*---Scrool Styling ---*/
+
+body::-webkit-scrollbar{
+    width: .6vw
+}
+body::-webkit-scrollbar-track{
+    background-color:#191919 ;
+}
+body::-webkit-scrollbar-thumb{
+    background-color:#a52121;
+}

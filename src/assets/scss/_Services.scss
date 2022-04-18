@@ -28,3 +28,32 @@
             }
         }    
 }
+
+
+//Media Query //
+@media(max-width:840px){
+    .services-section{
+
+        height: auto;
+        .services-text-row{
+            display: block;
+            margin: 0 1vw;
+            h3{
+                margin: 0;
+            }
+            p{
+                padding: 10px 20px;
+            }
+        }
+    }
+    
+}
+
+@media(max-width:480px){
+    .services-section{
+        .services-text-row{
+            display: block;
+        }
+    }
+    
+}

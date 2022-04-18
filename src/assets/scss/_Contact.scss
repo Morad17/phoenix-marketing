@@ -34,8 +34,45 @@
                 flex-direction: column;
                 text-align: left;
                 padding: 5px 0;
+                input{
+                    padding: .5vh 6vw;
+                }
+                label{
+                    padding: 10px 0;
+                }
             }
+        }
+        .button{
+            font-size: 18px;
+            border: 1px solid black;
+            margin-top: 10px;
+            padding: 4px 8px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: black;
         }
     }
 
+}
+
+//Media Query //
+@media(max-width:840px){
+    .contact-section{
+       .contact-row{
+        flex-direction: column;
+        padding: 5vh 8vw;
+        .contact-input-row{
+            input{
+                padding: .5vh 10vw;
+            }
+        }
+    } 
+    }
+    
+    
+}
+
+@media(max-width:480px){
+
+    
 }
